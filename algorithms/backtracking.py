@@ -1,4 +1,8 @@
+import time
+
+
 def match_ads(users, ads, matrix):
+    start = time.time()
     best_score = 0
     best_assignment = []
     n, m = len(users), len(ads)
@@ -19,4 +23,6 @@ def match_ads(users, ads, matrix):
                 used.remove(j)
 
     backtrack(0, set(), 0, [])
+    end = time.time()
+    print(f"{"Backtracking"} | Time: {end - start:6.4f} sec")
     return best_assignment

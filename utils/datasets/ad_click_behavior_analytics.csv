@@ -1,0 +1,1001 @@
+id,full_name,device_type,ad_position,browsing_history,time_of_day,click
+1,User670,Desktop,Top,Shopping,Afternoon,1
+2,User3044,Desktop,Top,,,1
+3,User5912,,Side,Education,Night,1
+4,User5418,,,Entertainment,Evening,1
+5,User9452,,,Social Media,Morning,0
+6,User5942,,Bottom,Social Media,Evening,1
+7,User7808,Desktop,Top,,,1
+8,User5065,Mobile,Side,,Evening,0
+9,User7993,Mobile,Bottom,Social Media,,1
+10,User4509,,Bottom,Education,Afternoon,1
+11,User2595,,Bottom,,Morning,1
+12,User7466,Mobile,Bottom,,Afternoon,1
+13,User8171,Mobile,Side,Education,Afternoon,0
+14,User2023,Desktop,,,,1
+15,User973,Mobile,,,Morning,1
+16,User7529,,Top,Entertainment,Afternoon,0
+17,User8127,Tablet,Bottom,,,1
+18,User188,Tablet,Bottom,News,Morning,1
+19,User2124,Desktop,Top,,Evening,1
+20,User7335,Tablet,Side,Entertainment,Night,0
+21,User5569,Mobile,Bottom,,Afternoon,1
+22,User2272,Tablet,Bottom,News,Morning,1
+23,User2722,Desktop,Top,,,1
+24,User316,Desktop,Top,,Night,1
+25,User9789,Tablet,,,,1
+26,User4890,Tablet,Bottom,Education,Afternoon,1
+27,User4994,Mobile,,,Night,0
+28,User5055,,,Education,Morning,1
+29,User6724,,Top,Entertainment,Evening,1
+30,User8253,Desktop,Bottom,Entertainment,,1
+31,User4945,Tablet,Top,,Morning,1
+32,User1729,Mobile,Top,,Afternoon,1
+33,User6862,Tablet,Side,,,1
+34,User4985,Mobile,Top,News,Evening,0
+35,User7361,Mobile,Top,Entertainment,Afternoon,0
+36,User1524,Mobile,Bottom,,Night,1
+37,User2542,Mobile,Side,,Evening,1
+38,User119,Tablet,Top,,,1
+39,User5881,Tablet,Top,,Morning,1
+40,User9642,,Bottom,,Evening,1
+41,User1171,Mobile,,,Night,1
+42,User1612,Mobile,,News,,1
+43,User9586,Desktop,,Shopping,Afternoon,0
+44,User7661,Mobile,Side,News,Night,1
+45,User4228,Desktop,Side,,Morning,1
+46,User5574,Desktop,Bottom,,Afternoon,1
+47,User120,Desktop,Side,,Night,0
+48,User6143,,Bottom,,Afternoon,1
+49,User301,Tablet,Side,Social Media,,1
+50,User5301,,Side,Social Media,,1
+51,User5439,,,Social Media,Afternoon,1
+52,User9806,Tablet,Bottom,,,1
+53,User9888,Mobile,Top,News,Morning,1
+54,User4525,Mobile,Top,Entertainment,,0
+55,User6153,,Side,Entertainment,Night,1
+56,User7498,,Side,Shopping,Afternoon,1
+57,User9736,Desktop,,Education,Evening,1
+58,User2244,Mobile,Top,,Evening,0
+59,User4952,,,,Night,0
+60,User4855,Desktop,Top,,,0
+61,User9590,Tablet,,,Morning,0
+62,User813,Tablet,Top,Education,Morning,1
+63,User4957,,Bottom,Social Media,Evening,1
+64,User9431,Mobile,Top,Entertainment,Afternoon,1
+65,User6935,Mobile,,,Morning,0
+66,User2431,Desktop,Top,,Night,1
+67,User3164,Desktop,,,Evening,1
+68,User4756,Mobile,Bottom,Education,Evening,1
+69,User1524,Mobile,Bottom,,Night,1
+70,User7674,,Bottom,News,Afternoon,1
+71,User6251,,Side,Shopping,Morning,1
+72,User6751,Tablet,,,Evening,0
+73,User9996,Desktop,Top,Shopping,Evening,0
+74,User2973,,Bottom,,Night,1
+75,User6315,Desktop,Top,,Afternoon,1
+76,User7065,Desktop,,,Morning,1
+77,User9412,,Bottom,Social Media,Morning,1
+78,User3458,Tablet,,,,0
+79,User6121,Desktop,Top,,Afternoon,0
+80,User487,Mobile,Side,,Afternoon,1
+81,User3266,Tablet,Top,News,Afternoon,1
+82,User5574,,Bottom,Shopping,Afternoon,1
+83,User6553,Desktop,Bottom,Education,Morning,1
+84,User8996,Desktop,,Entertainment,Evening,0
+85,User503,Desktop,,Social Media,Morning,1
+86,User4581,,Top,,,0
+87,User3266,Tablet,Top,News,Afternoon,1
+88,User8956,Tablet,,News,Morning,1
+89,User9990,Desktop,Side,,Night,1
+90,User7426,Mobile,Side,,Night,0
+91,User6100,Desktop,,Education,,1
+92,User3543,,Top,,Night,1
+93,User7866,Mobile,Top,Social Media,Morning,1
+94,User7917,Tablet,Side,,Afternoon,0
+95,User63,Tablet,Top,Social Media,,0
+96,User5340,Mobile,Side,,Night,0
+97,User2907,Mobile,Side,News,,0
+98,User7545,Tablet,,News,Evening,0
+99,User3746,,,,Morning,1
+100,User6906,Mobile,Top,,Morning,1
+101,User1665,Mobile,Bottom,,Afternoon,0
+102,User1762,Desktop,,Entertainment,Afternoon,1
+103,User8201,Desktop,Bottom,Social Media,Morning,0
+104,User4086,Desktop,Top,Entertainment,Morning,1
+105,User9896,Desktop,Side,,Afternoon,0
+106,User1503,,Side,,,1
+107,User571,Tablet,Bottom,Social Media,Afternoon,0
+108,User7591,Desktop,Top,,Night,0
+109,User5531,Desktop,Top,News,,1
+110,User5419,Tablet,,,Morning,1
+111,User9921,Desktop,Side,,Night,0
+112,User5338,Mobile,,Social Media,Morning,1
+113,User5821,Desktop,,Education,,0
+114,User4890,,Bottom,Education,Afternoon,1
+115,User9992,Desktop,Side,Shopping,Evening,1
+116,User9153,Tablet,Bottom,,Morning,0
+117,User2096,Desktop,Top,,Night,1
+118,User4777,Tablet,Side,,Morning,0
+119,User6683,Tablet,,,Night,1
+120,User6880,Mobile,Side,News,Night,1
+121,User2021,Mobile,,,Night,1
+122,User5986,Desktop,Side,,,0
+123,User5484,Mobile,Side,Education,Morning,0
+124,User8948,Mobile,Bottom,Education,,1
+125,User3109,,Side,Entertainment,,1
+126,User3042,,Side,,Afternoon,1
+127,User3225,Tablet,,Entertainment,,1
+128,User3801,Desktop,Side,,Evening,1
+129,User1190,Tablet,Bottom,Education,,1
+130,User1077,Desktop,Top,,Afternoon,1
+131,User3062,Desktop,Bottom,Entertainment,,1
+132,User6060,Desktop,Top,News,Morning,0
+133,User4697,Mobile,Side,Entertainment,Afternoon,1
+134,User6849,Mobile,,,Night,1
+135,User1908,Mobile,,,,1
+136,User5703,Tablet,Side,Shopping,Night,0
+137,User4856,Desktop,Top,,Evening,0
+138,User1197,Mobile,Top,Social Media,Night,1
+139,User9307,,,Social Media,Evening,0
+140,User8683,Desktop,Side,,,0
+141,User820,Mobile,Side,Social Media,Afternoon,0
+142,User6315,Desktop,Top,,Afternoon,1
+143,User8010,Desktop,Top,,,0
+144,User2364,,Side,,Afternoon,0
+145,User4507,,Bottom,,,0
+146,User1549,Desktop,Top,,Afternoon,1
+147,User4630,Tablet,Side,Shopping,Evening,0
+148,User3577,Desktop,Side,Social Media,Afternoon,0
+149,User5845,Tablet,,Shopping,Morning,0
+150,User8253,Desktop,Bottom,Entertainment,,1
+151,User5418,,Top,,,1
+152,User255,,,Entertainment,Night,1
+153,User4621,Desktop,,,,1
+154,User1704,,,,,1
+155,User118,Tablet,Bottom,Social Media,Night,0
+156,User8957,Mobile,Top,,Morning,1
+157,User3314,Tablet,Top,News,Evening,0
+158,User5995,,Top,,Morning,0
+159,User3007,Desktop,Top,Shopping,Night,0
+160,User1325,,Side,,Evening,1
+161,User756,,,,Evening,0
+162,User5194,Mobile,Top,,,1
+163,User4611,Tablet,,Social Media,Night,0
+164,User2023,Desktop,,,,1
+165,User2565,Desktop,Bottom,Shopping,Night,0
+166,User2965,Tablet,Top,Shopping,,0
+167,User8041,Mobile,Bottom,,Afternoon,1
+168,User6258,Tablet,Top,,Night,1
+169,User3375,Mobile,Bottom,Education,Morning,1
+170,User7805,Mobile,,,Afternoon,0
+171,User3062,Desktop,Bottom,Entertainment,Evening,1
+172,User6449,Desktop,Top,Shopping,Night,1
+173,User9647,Desktop,Side,,Evening,0
+174,User5439,Tablet,Side,Social Media,Afternoon,1
+175,User9400,Mobile,Side,Education,Night,1
+176,User1914,,Bottom,Shopping,,1
+177,User9732,Desktop,,Education,Evening,0
+178,User5642,Tablet,Bottom,News,Morning,0
+179,User9689,Desktop,Bottom,,,1
+180,User7655,,Bottom,,,0
+181,User5780,Mobile,Bottom,Entertainment,,1
+182,User2976,,,Shopping,Afternoon,0
+183,User6262,,Bottom,,Morning,0
+184,User3663,Mobile,,Social Media,,0
+185,User8103,,Top,,Night,0
+186,User2757,Mobile,Bottom,Social Media,Night,0
+187,User9136,Desktop,Side,,Afternoon,1
+188,User6974,Desktop,Side,Education,Evening,0
+189,User1486,Desktop,Side,,Morning,0
+190,User606,,Bottom,Entertainment,Afternoon,1
+191,User1612,Mobile,Side,News,Evening,1
+192,User6438,Tablet,,,Night,1
+193,User3225,,Bottom,Entertainment,Morning,1
+194,User9842,Mobile,,Shopping,Afternoon,1
+195,User8817,Tablet,Bottom,,Night,1
+196,User1020,Mobile,Side,Education,Morning,1
+197,User1635,,Top,,,1
+198,User3776,,Top,Social Media,Evening,0
+199,User5412,Mobile,Top,,Evening,1
+200,User6989,Mobile,,Shopping,Afternoon,1
+201,User8018,Desktop,Side,,Night,1
+202,User2529,Desktop,,,Afternoon,1
+203,User3285,Tablet,Side,News,,0
+204,User2156,Tablet,Side,,,1
+205,User8530,Mobile,Top,Social Media,Afternoon,1
+206,User9418,,Side,News,,1
+207,User8190,Mobile,Side,,Afternoon,1
+208,User1140,,Side,,Evening,0
+209,User3149,Desktop,Top,,Night,0
+210,User5629,Tablet,,,Night,1
+211,User9748,Tablet,Bottom,Entertainment,Afternoon,0
+212,User4086,Desktop,Top,Entertainment,Morning,1
+213,User9400,Mobile,Side,Education,Night,1
+214,User6449,Desktop,Top,Shopping,Night,1
+215,User9699,,,Shopping,Morning,0
+216,User2809,Desktop,Top,News,Afternoon,0
+217,User4089,Tablet,,,Afternoon,0
+218,User2885,Desktop,Bottom,Education,Afternoon,0
+219,User1190,Tablet,Bottom,Education,Morning,1
+220,User8068,Mobile,Side,Shopping,Afternoon,0
+221,User5082,Mobile,Top,,Afternoon,1
+222,User1345,Desktop,Top,Entertainment,,0
+223,User4938,Desktop,Side,Social Media,Evening,1
+224,User5623,Desktop,Side,,Morning,1
+225,User5329,Tablet,Side,,Evening,1
+226,User9990,Desktop,Side,,Night,1
+227,User3746,Desktop,Top,,Morning,1
+228,User7993,Mobile,Bottom,Social Media,Morning,1
+229,User5955,Tablet,,,Evening,1
+230,User5100,Mobile,Side,Shopping,Morning,1
+231,User6129,Tablet,Bottom,,Evening,1
+232,User4625,Mobile,Top,News,Morning,0
+233,User8459,Tablet,Bottom,Entertainment,Morning,1
+234,User3215,Mobile,Side,,Afternoon,0
+235,User4151,Desktop,,,Evening,0
+236,User8176,Desktop,Top,News,Afternoon,0
+237,User1908,Mobile,Bottom,,Evening,1
+238,User2142,,,Shopping,Afternoon,1
+239,User4212,,,News,,0
+240,User9137,Desktop,Side,Social Media,,0
+241,User8085,Mobile,,,Evening,0
+242,User933,Tablet,,Entertainment,Night,0
+243,User4779,Tablet,Top,,Afternoon,0
+244,User4925,Desktop,Side,Entertainment,Evening,0
+245,User6167,Mobile,Side,Shopping,Night,1
+246,User3818,Desktop,Top,Shopping,Night,0
+247,User6919,Desktop,Top,Social Media,Night,0
+248,User7779,Desktop,,,Morning,0
+249,User1612,Mobile,Side,News,Evening,1
+250,User6441,Desktop,Top,,Night,1
+251,User7808,Desktop,Top,,Night,1
+252,User550,Desktop,Top,,Morning,0
+253,User1612,Mobile,Side,News,Evening,1
+254,User3644,Mobile,Side,Entertainment,Evening,1
+255,User7422,Desktop,Top,,Evening,1
+256,User5732,,Bottom,,Evening,1
+257,User8222,Tablet,Side,News,Afternoon,1
+258,User4450,Mobile,Top,,Evening,0
+259,User3277,Mobile,Side,News,,0
+260,User8174,Mobile,Bottom,,,1
+261,User1127,Desktop,,,Afternoon,1
+262,User3345,Desktop,,,Night,1
+263,User6553,Desktop,Bottom,Education,Morning,1
+264,User453,Tablet,Top,Entertainment,Afternoon,1
+265,User4345,Desktop,Bottom,Education,Afternoon,0
+266,User6268,Desktop,,,Night,1
+267,User329,Desktop,Top,,Night,0
+268,User9266,Mobile,,Education,Afternoon,1
+269,User6917,Mobile,Bottom,,Afternoon,0
+270,User8561,Mobile,Bottom,,Evening,1
+271,User9448,Mobile,Side,Entertainment,Morning,0
+272,User7272,Tablet,,News,Afternoon,0
+273,User234,Tablet,Bottom,Social Media,Morning,1
+274,User255,Desktop,Bottom,Entertainment,Night,1
+275,User2129,Tablet,Bottom,Social Media,Evening,1
+276,User7678,Desktop,Top,Social Media,Night,0
+277,User8515,Mobile,Bottom,,Night,1
+278,User2173,,Bottom,Shopping,Night,1
+279,User5571,Desktop,Side,,Evening,0
+280,User9611,Desktop,Side,Entertainment,Afternoon,1
+281,User5737,Desktop,Top,Shopping,Night,0
+282,User7788,Mobile,Side,,Night,0
+283,User7471,Mobile,Bottom,,Morning,1
+284,User9811,Mobile,Side,,Morning,0
+285,User8115,Mobile,Top,Social Media,Afternoon,1
+286,User217,Tablet,,Education,Morning,0
+287,User234,,,Social Media,Morning,1
+288,User6864,Desktop,Side,Social Media,Evening,0
+289,User6462,Tablet,Side,Education,Evening,1
+290,User1214,Mobile,Bottom,News,Evening,1
+291,User3543,,Top,,Night,1
+292,User7214,Mobile,,Education,,0
+293,User3236,Mobile,Bottom,Education,Morning,1
+294,User8957,,Top,,Morning,1
+295,User1214,Mobile,,,Evening,1
+296,User6576,Desktop,Bottom,Entertainment,Morning,1
+297,User6602,Desktop,,,,1
+298,User9400,Mobile,Side,Education,,1
+299,User5501,Mobile,Bottom,Social Media,Evening,1
+300,User5084,Tablet,Side,,,1
+301,User1020,,Side,,Morning,1
+302,User9618,Desktop,,Education,Morning,0
+303,User4228,Desktop,Side,,Morning,1
+304,User7659,Mobile,Top,News,Night,0
+305,User2003,Desktop,Bottom,News,Afternoon,0
+306,User9736,,,Education,,1
+307,User487,Mobile,Side,,Afternoon,1
+308,User4429,,Top,Entertainment,Morning,1
+309,User998,Tablet,Top,,Evening,1
+310,User8226,Tablet,,,Morning,1
+311,User9220,Mobile,Side,,Night,1
+312,User1420,Desktop,,,Morning,1
+313,User2485,Mobile,Bottom,News,,1
+314,User4841,,Side,Education,Evening,0
+315,User8316,Desktop,Bottom,,,0
+316,User3601,Mobile,Bottom,Entertainment,,1
+317,User9290,Desktop,Bottom,,,1
+318,User5258,Desktop,Side,Education,Night,0
+319,User9431,Mobile,Top,,Afternoon,1
+320,User885,Tablet,Side,,Afternoon,0
+321,User7866,Mobile,,Social Media,Morning,1
+322,User1110,Mobile,Side,Entertainment,,0
+323,User1539,Mobile,Bottom,Education,Evening,1
+324,User2722,Desktop,Top,,Evening,1
+325,User5890,Mobile,Bottom,News,Night,1
+326,User5062,Tablet,Bottom,,Night,0
+327,User6125,,,,Afternoon,0
+328,User2964,Mobile,Side,,,1
+329,User6573,Desktop,Side,,Evening,1
+330,User2133,Tablet,Side,Shopping,,0
+331,User3014,Mobile,Top,,,1
+332,User6619,Tablet,Bottom,Social Media,Evening,0
+333,User579,Tablet,Side,Entertainment,Evening,0
+334,User3938,Mobile,,,,1
+335,User949,Desktop,Top,Social Media,Morning,0
+336,User6145,,Side,Education,Evening,0
+337,User9075,Mobile,,,,1
+338,User3658,,Side,Shopping,Night,1
+339,User7993,Mobile,Bottom,Social Media,,1
+340,User6602,Desktop,Side,,Night,1
+341,User2760,,Top,,Morning,0
+342,User4616,,Side,,Evening,0
+343,User1503,Tablet,Side,,Afternoon,1
+344,User9550,Desktop,Top,Education,Afternoon,1
+345,User9227,,Side,,,1
+346,User5522,Desktop,Bottom,,Night,0
+347,User7438,,Side,News,Morning,1
+348,User5733,Mobile,Bottom,,Morning,0
+349,User4957,,Bottom,Social Media,Evening,1
+350,User6771,,Side,,Morning,1
+351,User8442,Tablet,Bottom,News,Evening,0
+352,User393,Desktop,Bottom,Shopping,Morning,1
+353,User8252,,Side,,Night,1
+354,User8947,,,Entertainment,,1
+355,User6423,Tablet,Side,Shopping,Afternoon,0
+356,User670,Desktop,,Shopping,Afternoon,1
+357,User9245,Tablet,Top,Education,Morning,0
+358,User3232,Tablet,Bottom,,Night,0
+359,User6479,Tablet,Side,,Afternoon,1
+360,User8226,Tablet,Top,,,1
+361,User4254,Desktop,Bottom,,Afternoon,1
+362,User1099,Tablet,Top,Shopping,Night,0
+363,User3641,Tablet,,,Night,1
+364,User3014,Mobile,Top,,Afternoon,1
+365,User2964,Mobile,Side,Entertainment,Night,1
+366,User9807,Tablet,Bottom,Education,Night,1
+367,User9806,,Bottom,,Evening,1
+368,User6883,Desktop,Side,News,Afternoon,0
+369,User1470,Tablet,Top,Social Media,Evening,0
+370,User645,Tablet,Side,,Morning,0
+371,User4015,,Side,,,1
+372,User8208,Tablet,Top,Education,Evening,1
+373,User5425,Mobile,Side,Entertainment,Afternoon,1
+374,User4874,Mobile,,News,,0
+375,User1914,,Bottom,Shopping,,1
+376,User4950,Mobile,,,Morning,1
+377,User24,Tablet,Side,,,1
+378,User7450,Desktop,Side,News,Night,1
+379,User2019,Tablet,Top,,Night,0
+380,User1446,Desktop,Bottom,News,Night,1
+381,User7750,Mobile,Side,Social Media,Morning,1
+382,User2337,Desktop,Top,Entertainment,,1
+383,User4178,,Top,,Morning,0
+384,User6487,,Side,,,1
+385,User3057,,Top,Entertainment,Afternoon,0
+386,User6765,,,Entertainment,Morning,1
+387,User5193,Desktop,,Education,Afternoon,1
+388,User6906,Mobile,Top,,,1
+389,User2555,Tablet,,News,,1
+390,User4773,Desktop,Top,Entertainment,,0
+391,User6438,,,Shopping,Night,1
+392,User9128,,Top,,Morning,0
+393,User9075,Mobile,,,Night,1
+394,User8372,Desktop,Top,,Afternoon,0
+395,User400,Tablet,Side,,Evening,1
+396,User8334,Desktop,Top,,Evening,0
+397,User1965,Tablet,,Shopping,Morning,0
+398,User5403,Desktop,Top,Education,Night,0
+399,User3333,Tablet,Top,,Evening,1
+400,User5501,Mobile,Bottom,,,1
+401,User9617,Tablet,,Shopping,,1
+402,User7792,Mobile,Bottom,,Evening,0
+403,User3708,Desktop,Top,,Evening,0
+404,User3280,Tablet,Side,,Morning,0
+405,User2529,Desktop,Top,,Afternoon,1
+406,User8832,Tablet,Side,,Night,1
+407,User5945,Desktop,Side,,,0
+408,User9723,Mobile,Side,,Evening,1
+409,User6268,Desktop,Top,,Night,1
+410,User5664,Mobile,Top,,,0
+411,User6268,Desktop,Top,,Night,1
+412,User1945,Tablet,Side,Entertainment,,1
+413,User8058,Mobile,,,Afternoon,0
+414,User560,Desktop,Side,Social Media,Morning,0
+415,User9806,Tablet,Bottom,,,1
+416,User3299,Tablet,Side,,Evening,1
+417,User2336,Tablet,Side,,Morning,1
+418,User7466,Mobile,Bottom,Shopping,Afternoon,1
+419,User4587,Tablet,Top,,,0
+420,User1369,,,Social Media,Morning,1
+421,User7438,Mobile,Side,News,Morning,1
+422,User9162,Mobile,Top,,Night,0
+423,User1325,Desktop,Side,,Evening,1
+424,User5756,Tablet,Top,Shopping,Afternoon,1
+425,User373,Mobile,,Education,Evening,1
+426,User1148,Mobile,Bottom,,,1
+427,User6167,Mobile,Side,,Night,1
+428,User5276,Tablet,Side,Shopping,Afternoon,1
+429,User5338,Mobile,Top,Social Media,Morning,1
+430,User6462,Tablet,Side,Education,Evening,1
+431,User9266,Mobile,,Education,Afternoon,1
+432,User1540,Tablet,Top,,Evening,0
+433,User1190,,,Education,Morning,1
+434,User6188,,Bottom,Entertainment,Morning,1
+435,User7988,Mobile,Bottom,News,Evening,0
+436,User9789,Tablet,,,Morning,1
+437,User346,Mobile,Top,News,Evening,0
+438,User5756,Tablet,Top,Shopping,Afternoon,1
+439,User6160,Tablet,,,Evening,0
+440,User1549,Desktop,Top,,Afternoon,1
+441,User6980,,Bottom,Social Media,Night,1
+442,User1077,,Top,,Afternoon,1
+443,User5951,Tablet,Top,,Evening,0
+444,User5193,Desktop,,Education,,1
+445,User7526,,Side,,Evening,1
+446,User8956,Tablet,Top,,Morning,1
+447,User1601,Tablet,Top,Education,Morning,0
+448,User3906,Tablet,Bottom,,Evening,1
+449,User8189,Tablet,Top,Shopping,,0
+450,User8190,Mobile,Side,,,1
+451,User7973,Mobile,Bottom,,Morning,1
+452,User5629,Tablet,Top,,,1
+453,User4015,Tablet,Side,,Evening,1
+454,User1305,Tablet,Top,News,Night,1
+455,User6880,Mobile,Side,News,Night,1
+456,User2650,Desktop,Side,,Morning,0
+457,User4236,Desktop,Bottom,,Night,0
+458,User9173,Desktop,Side,Education,Evening,0
+459,User2913,Mobile,Side,Social Media,,1
+460,User6161,,Bottom,,Afternoon,1
+461,User5766,Desktop,Side,Social Media,Evening,1
+462,User5566,Mobile,,Social Media,Morning,1
+463,User1141,Desktop,,,Afternoon,1
+464,User393,Desktop,Bottom,Shopping,,1
+465,User1077,Desktop,,,Afternoon,1
+466,User3759,Mobile,Top,,,0
+467,User3854,Tablet,Bottom,Social Media,Afternoon,1
+468,User5425,Mobile,,Entertainment,Afternoon,1
+469,User7438,Mobile,Side,News,Morning,1
+470,User9231,Desktop,Top,Shopping,,1
+471,User2542,Mobile,,Entertainment,Evening,1
+472,User3561,Desktop,,Social Media,Evening,1
+473,User9855,Desktop,Bottom,,Morning,1
+474,User1445,Mobile,Top,,,0
+475,User6811,Mobile,Bottom,Education,Evening,1
+476,User7448,Tablet,Side,Entertainment,,0
+477,User1214,Mobile,,News,Evening,1
+478,User1557,,Bottom,,Night,0
+479,User1171,Mobile,Bottom,,Night,1
+480,User966,Desktop,Bottom,,Night,1
+481,User4015,,Side,,Evening,1
+482,User7652,Mobile,Bottom,Education,Morning,1
+483,User315,Desktop,Side,Social Media,,1
+484,User4462,Tablet,Bottom,,Afternoon,1
+485,User3164,Desktop,Bottom,,Evening,1
+486,User5483,Tablet,Side,Education,,0
+487,User6258,Tablet,Top,,Night,1
+488,User2722,Desktop,Top,,Evening,1
+489,User3570,Mobile,Side,,Evening,0
+490,User7748,Desktop,Top,News,Night,0
+491,User5922,Mobile,Side,Entertainment,Afternoon,0
+492,User3429,Tablet,Side,,Morning,1
+493,User6467,Desktop,Side,,Morning,1
+494,User3990,Tablet,Side,Social Media,,1
+495,User7670,,Top,Education,Night,1
+496,User5993,Desktop,Bottom,Entertainment,Evening,0
+497,User1368,,Top,,Afternoon,0
+498,User9842,Mobile,Top,,Afternoon,1
+499,User6602,Desktop,Side,,Night,1
+500,User866,Mobile,Bottom,Education,Night,0
+501,User8789,,,Entertainment,Evening,1
+502,User3042,Mobile,Side,Social Media,Afternoon,1
+503,User1741,Mobile,Bottom,,Night,1
+504,User3523,Desktop,Bottom,,Morning,0
+505,User5082,Mobile,Top,Shopping,Afternoon,1
+506,User5055,Desktop,Top,Education,Morning,1
+507,User9695,Desktop,Side,Entertainment,Night,0
+508,User9057,Desktop,Side,,,1
+509,User2129,Tablet,,Social Media,Evening,1
+510,User3644,,Side,Entertainment,Evening,1
+511,User4883,,Top,,Night,0
+512,User3236,Mobile,Bottom,,Morning,1
+513,User2311,Desktop,Bottom,,Afternoon,1
+514,User416,,Bottom,Social Media,Morning,0
+515,User9420,,Side,,Afternoon,1
+516,User770,,Bottom,,Evening,1
+517,User2174,Desktop,Bottom,,Afternoon,1
+518,User9400,Mobile,Side,Education,Night,1
+519,User301,,Side,Social Media,Evening,1
+520,User9146,Desktop,Top,,Afternoon,1
+521,User5412,Mobile,Top,,,1
+522,User6202,Tablet,Bottom,Shopping,,1
+523,User8581,Mobile,,,Morning,0
+524,User2964,Mobile,,Entertainment,Night,1
+525,User9151,,Top,,Evening,0
+526,User4762,Mobile,Side,Shopping,Morning,0
+527,User9966,,Top,,Afternoon,1
+528,User3430,Desktop,Side,Social Media,Morning,1
+529,User5487,,Bottom,,Night,0
+530,User2691,Desktop,,News,,1
+531,User8978,Desktop,Side,,Morning,0
+532,User265,,Bottom,,Afternoon,0
+533,User2711,Tablet,Side,Education,,0
+534,User2272,,Bottom,,,1
+535,User606,Desktop,Bottom,,Afternoon,1
+536,User1171,Mobile,Bottom,,Night,1
+537,User1805,Mobile,Top,,Afternoon,1
+538,User8222,Tablet,Side,News,Afternoon,1
+539,User5498,Tablet,Side,Education,Morning,1
+540,User6906,Mobile,Top,,Morning,1
+541,User9670,Desktop,Top,Shopping,Afternoon,0
+542,User911,Desktop,Top,Entertainment,Night,1
+543,User6602,Desktop,Side,,Night,1
+544,User4462,Tablet,Bottom,,Afternoon,1
+545,User2555,Tablet,Bottom,News,Evening,1
+546,User5095,,,,Afternoon,0
+547,User3330,,,News,Afternoon,1
+548,User9816,Desktop,,Entertainment,Morning,0
+549,User9516,Desktop,Top,,Morning,1
+550,User805,Desktop,Bottom,,,1
+551,User1127,,Side,,Afternoon,1
+552,User6211,Mobile,Top,,Night,0
+553,User2595,Desktop,Bottom,,Morning,1
+554,User9736,Desktop,Bottom,,Evening,1
+555,User7438,Mobile,Side,News,,1
+556,User7086,Mobile,,,Morning,1
+557,User228,,Top,Social Media,Evening,1
+558,User2178,Desktop,,Social Media,,0
+559,User5921,Desktop,Side,,Morning,1
+560,User4559,Desktop,Bottom,News,Night,0
+561,User1126,,Side,,Afternoon,1
+562,User1741,Mobile,Bottom,,Night,1
+563,User6874,Mobile,Side,News,Afternoon,0
+564,User5056,Tablet,Side,Social Media,,0
+565,User5005,Desktop,Top,Shopping,,1
+566,User1454,,Top,,Morning,1
+567,User3543,Tablet,,,,1
+568,User7057,Tablet,Side,News,Night,0
+569,User2196,Desktop,Top,News,Morning,0
+570,User5198,Desktop,Bottom,Education,,1
+571,User6100,Desktop,Bottom,Education,Night,1
+572,User8459,Tablet,Bottom,Entertainment,Morning,1
+573,User1446,Desktop,Bottom,News,Night,1
+574,User8726,Desktop,Side,Education,Morning,1
+575,User7139,Desktop,Side,News,Afternoon,0
+576,User8726,Desktop,Side,Education,Morning,1
+577,User92,Tablet,Top,Shopping,Morning,0
+578,User2823,Mobile,Top,,,0
+579,User6174,,Side,Entertainment,Morning,0
+580,User9806,Tablet,Bottom,,Evening,1
+581,User8476,,Bottom,Social Media,Night,0
+582,User9157,Mobile,Bottom,,Morning,1
+583,User5418,,,Entertainment,Evening,1
+584,User210,Tablet,Top,,Afternoon,0
+585,User7688,,Top,,Evening,1
+586,User7590,,,Social Media,Morning,0
+587,User2804,Tablet,Bottom,Education,Evening,1
+588,User4890,Tablet,,Education,Afternoon,1
+589,User6202,Tablet,Bottom,,Night,1
+590,User7466,Mobile,Bottom,Shopping,,1
+591,User6669,,,News,Night,1
+592,User5890,Mobile,Bottom,,,1
+593,User8400,Tablet,Bottom,Entertainment,Afternoon,1
+594,User2032,,Bottom,,Morning,1
+595,User2124,Desktop,Top,,,1
+596,User6258,Tablet,,,Night,1
+597,User1743,,,News,,0
+598,User4015,Tablet,Side,,Evening,1
+599,User6296,Desktop,,Education,Evening,1
+600,User9412,Mobile,Bottom,Social Media,Morning,1
+601,User8278,Mobile,Top,,Morning,1
+602,User5629,Tablet,Top,,Night,1
+603,User9075,Mobile,Top,,Night,1
+604,User9422,,Side,Entertainment,Night,1
+605,User8174,Mobile,Bottom,,Afternoon,1
+606,User315,Desktop,,Social Media,Evening,1
+607,User9015,Mobile,Side,Education,Afternoon,0
+608,User3898,Desktop,,News,Morning,0
+609,User393,Desktop,Bottom,Shopping,Morning,1
+610,User4805,,Bottom,Social Media,,0
+611,User5338,Mobile,Top,Social Media,,1
+612,User3296,,Top,,Afternoon,0
+613,User316,Desktop,,Social Media,Night,1
+614,User2394,Tablet,Bottom,,Afternoon,0
+615,User9738,Desktop,Bottom,,Evening,0
+616,User1575,Desktop,,,Night,0
+617,User7828,Tablet,Bottom,,Morning,1
+618,User3478,Tablet,Top,,Night,0
+619,User3834,Desktop,Bottom,,Night,0
+620,User5439,,Side,Social Media,Afternoon,1
+621,User1136,Mobile,Side,,Morning,1
+622,User1225,Tablet,Side,Entertainment,,1
+623,User7,Tablet,,,Evening,1
+624,User2946,Desktop,Bottom,,Afternoon,1
+625,User1729,,Top,,Afternoon,1
+626,User1369,Desktop,Bottom,Social Media,Morning,1
+627,User1914,Tablet,Bottom,Shopping,Night,1
+628,User7993,,Bottom,,Morning,1
+629,User8789,Desktop,Top,,Evening,1
+630,User5324,Mobile,,Social Media,Night,1
+631,User5878,Tablet,Bottom,Education,,1
+632,User7438,,Side,News,Morning,1
+633,User9058,Desktop,Bottom,Education,Afternoon,0
+634,User2266,Mobile,Bottom,,,0
+635,User4415,,Top,News,Night,0
+636,User1850,Desktop,Top,,Evening,0
+637,User1931,Mobile,Bottom,Shopping,Night,1
+638,User5523,,Top,Shopping,Afternoon,0
+639,User2733,Tablet,Bottom,,Morning,1
+640,User5678,Desktop,Top,,Afternoon,0
+641,User5338,,,Social Media,Morning,1
+642,User3955,,Top,Entertainment,Afternoon,0
+643,User1340,Tablet,,Entertainment,Evening,0
+644,User6743,Mobile,Side,Entertainment,,1
+645,User5909,Tablet,Top,,Afternoon,1
+646,User8359,,Bottom,Shopping,Morning,0
+647,User9021,Tablet,Top,,Morning,0
+648,User7828,Tablet,,,Morning,1
+649,User7971,Tablet,Top,,Evening,1
+650,User5329,Tablet,Side,,Evening,1
+651,User2361,Desktop,Top,,Morning,0
+652,User1253,Desktop,Bottom,Shopping,Morning,1
+653,User4049,,Top,,,1
+654,User1033,Tablet,Bottom,Entertainment,Night,0
+655,User6237,Mobile,Top,News,Morning,1
+656,User5085,Tablet,,News,Night,1
+657,User1104,Desktop,Bottom,Entertainment,Evening,0
+658,User7498,Mobile,Side,,,1
+659,User7376,Mobile,Side,News,Morning,1
+660,User9444,Mobile,Side,Entertainment,Afternoon,0
+661,User163,Desktop,,,Night,0
+662,User9967,Mobile,Side,Education,,1
+663,User928,Desktop,,Social Media,Night,1
+664,User3109,Tablet,Side,Entertainment,Evening,1
+665,User2715,Mobile,,,Afternoon,0
+666,User6771,Desktop,Side,Shopping,,1
+667,User1178,Desktop,Bottom,,Evening,1
+668,User2387,Mobile,Top,Social Media,,1
+669,User6237,Mobile,Top,News,Morning,1
+670,User6315,,Top,News,Afternoon,1
+671,User8415,Desktop,,,Evening,0
+672,User4976,Mobile,Bottom,Entertainment,Afternoon,1
+673,User8081,Tablet,Bottom,Entertainment,Night,1
+674,User9892,Tablet,Side,,Evening,1
+675,User412,Tablet,Top,News,Evening,1
+676,User1634,Tablet,Bottom,News,Night,0
+677,User3042,Mobile,Side,Social Media,,1
+678,User3906,Tablet,Bottom,,Evening,1
+679,User7699,Tablet,Side,,Afternoon,0
+680,User5055,Desktop,Top,Education,Morning,1
+681,User7471,Mobile,Bottom,Shopping,Morning,1
+682,User5881,Tablet,Top,,,1
+683,User6251,Mobile,,Shopping,Morning,1
+684,User9676,Mobile,Top,,Morning,1
+685,User1679,Mobile,Top,Education,,0
+686,User5514,Desktop,Side,,Night,1
+687,User188,,Bottom,News,Morning,1
+688,User9311,Desktop,Side,Social Media,Afternoon,1
+689,User3674,Tablet,,Entertainment,,0
+690,User2239,Tablet,Bottom,,,1
+691,User3144,,Side,Shopping,Morning,1
+692,User7511,Desktop,Side,Shopping,Night,1
+693,User3014,Mobile,Top,,Afternoon,1
+694,User8333,Mobile,,,Afternoon,0
+695,User4527,Mobile,,Education,Morning,0
+696,User4359,Desktop,Side,Social Media,,0
+697,User9344,Mobile,,Shopping,Night,0
+698,User4945,Tablet,,Social Media,Morning,1
+699,User6627,Desktop,Bottom,Education,Afternoon,1
+700,User3704,Desktop,Top,,Evening,0
+701,User5531,Desktop,,News,Night,1
+702,User1762,Desktop,Side,Entertainment,Afternoon,1
+703,User1945,Tablet,Side,Entertainment,Night,1
+704,User9136,,Side,,Afternoon,1
+705,User8252,Tablet,Side,,Night,1
+706,User3109,,Side,Entertainment,Evening,1
+707,User7349,Tablet,Side,Entertainment,Afternoon,0
+708,User3118,,Top,,Evening,1
+709,User9290,Desktop,,Entertainment,Afternoon,1
+710,User7828,Tablet,Bottom,,Morning,1
+711,User2581,,Bottom,,Evening,1
+712,User1734,Mobile,Side,Education,Night,0
+713,User1101,Mobile,Bottom,Shopping,,0
+714,User5363,Desktop,Top,,Evening,0
+715,User3352,Desktop,Side,,,1
+716,User4102,,Top,,,0
+717,User1126,,Side,,Afternoon,1
+718,User4044,Mobile,Top,Social Media,,0
+719,User5918,Mobile,Bottom,,Evening,0
+720,User1079,Desktop,Side,,,0
+721,User3561,Desktop,Side,Social Media,Evening,1
+722,User9550,Desktop,Top,Education,,1
+723,User270,Desktop,Side,News,Evening,0
+724,User9878,Desktop,Top,,Evening,0
+725,User6602,Desktop,Side,,,1
+726,User9842,,Top,Shopping,Afternoon,1
+727,User277,Desktop,Top,Entertainment,Afternoon,1
+728,User5640,Mobile,Top,,Evening,0
+729,User9090,Desktop,Side,,Morning,1
+730,User9146,Desktop,Top,,Afternoon,1
+731,User9522,Tablet,Bottom,,Afternoon,0
+732,User3938,,Bottom,,Evening,1
+733,User6387,Desktop,Side,,Evening,0
+734,User507,,Side,,Morning,0
+735,User7878,Tablet,Side,,Afternoon,1
+736,User6708,Desktop,Top,,Night,1
+737,User3345,,Side,,Night,1
+738,User4858,Tablet,Side,Social Media,Evening,0
+739,User9888,Mobile,Top,News,,1
+740,User58,Mobile,Top,,,1
+741,User6683,,Side,,Night,1
+742,User4361,Tablet,Side,,Afternoon,1
+743,User9418,Tablet,Side,News,,1
+744,User2693,Desktop,Side,Shopping,,0
+745,User9642,Mobile,,,Evening,1
+746,User9265,,Side,,Night,0
+747,User4021,Mobile,Side,,Morning,1
+748,User2096,Desktop,Top,,Night,1
+749,User3990,Tablet,Side,Social Media,,1
+750,User9418,Tablet,Side,,,1
+751,User4509,Desktop,Bottom,Education,,1
+752,User5471,Desktop,Side,Social Media,,0
+753,User8326,Desktop,Bottom,Entertainment,Evening,1
+754,User4957,Desktop,Bottom,Social Media,Evening,1
+755,User4621,Desktop,Top,,,1
+756,User8883,Mobile,Bottom,Education,Evening,1
+757,User7476,Tablet,Bottom,News,Night,0
+758,User6854,Mobile,Bottom,,Night,1
+759,User9736,Desktop,Bottom,Education,Evening,1
+760,User1549,Desktop,Top,,,1
+761,User5906,,,Social Media,Afternoon,0
+762,User5418,Mobile,Top,Entertainment,,1
+763,User5942,,,,Evening,1
+764,User3328,Desktop,Top,News,Night,0
+765,User3352,Desktop,,,Night,1
+766,User9499,Mobile,Bottom,Social Media,Morning,1
+767,User9912,Mobile,,Entertainment,Night,0
+768,User453,Tablet,Top,Entertainment,,1
+769,User5514,Desktop,,,Night,1
+770,User1856,Tablet,Bottom,News,Afternoon,0
+771,User2032,Desktop,Bottom,Education,Morning,1
+772,User7390,Desktop,,Shopping,,0
+773,User5891,Tablet,Top,Education,Evening,0
+774,User3763,Desktop,Bottom,Social Media,Afternoon,0
+775,User4907,,Side,,,0
+776,User9220,Mobile,Side,Social Media,Night,1
+777,User3060,Tablet,Bottom,News,Morning,1
+778,User4889,Tablet,Bottom,News,Evening,1
+779,User375,Mobile,Top,Social Media,Evening,1
+780,User2124,Desktop,,,Evening,1
+781,User8555,,Top,,Evening,0
+782,User9400,,Side,Education,Night,1
+783,User7973,Mobile,Bottom,Shopping,Morning,1
+784,User8226,Tablet,Top,,Morning,1
+785,User2973,,Bottom,,Night,1
+786,User7750,Mobile,Side,Social Media,Morning,1
+787,User6657,Desktop,Bottom,News,Night,1
+788,User1171,Mobile,Bottom,,Night,1
+789,User4108,Tablet,Top,,Morning,1
+790,User6637,Mobile,,Social Media,,0
+791,User1296,Tablet,,,Morning,1
+792,User4021,,,,Morning,1
+793,User1447,Tablet,Side,,Evening,0
+794,User6167,Mobile,Side,Shopping,Night,1
+795,User8226,Tablet,Top,,Morning,1
+796,User7878,Tablet,Side,,,1
+797,User9066,,,,,0
+798,User4539,Mobile,Bottom,,,1
+799,User6258,,Top,,Night,1
+800,User8149,Mobile,Side,Education,Morning,0
+801,User7685,Tablet,,,Afternoon,0
+802,User3430,Desktop,Side,Social Media,Morning,1
+803,User5738,Desktop,Bottom,Social Media,Afternoon,0
+804,User5,Mobile,,Social Media,Afternoon,0
+805,User7507,Tablet,Top,Education,Afternoon,1
+806,User5566,Mobile,Bottom,Social Media,Morning,1
+807,User315,,Side,Social Media,Evening,1
+808,User1369,Desktop,Bottom,Social Media,Morning,1
+809,User3060,Tablet,Bottom,,Morning,1
+810,User3333,Tablet,Top,,Evening,1
+811,User6654,Desktop,Top,,Afternoon,1
+812,User6785,Tablet,Side,News,Afternoon,0
+813,User1041,Mobile,Side,Entertainment,Morning,1
+814,User1483,Tablet,Bottom,Education,,0
+815,User647,Desktop,Side,Shopping,Morning,0
+816,User9966,Mobile,Top,,Afternoon,1
+817,User2485,Mobile,Bottom,News,Night,1
+818,User4429,Mobile,Top,Entertainment,Morning,1
+819,User4938,Desktop,Side,,Evening,1
+820,User8208,Tablet,Top,Education,Evening,1
+821,User9617,Tablet,Side,Shopping,Afternoon,1
+822,User6129,Tablet,Bottom,Shopping,,1
+823,User3336,,Bottom,,Morning,1
+824,User9789,Tablet,Side,,Morning,1
+825,User4429,Mobile,Top,Entertainment,Morning,1
+826,User9888,Mobile,Top,News,,1
+827,User1549,Desktop,Top,,Afternoon,1
+828,User9807,Tablet,Bottom,Education,Night,1
+829,User2934,Desktop,Top,Entertainment,Afternoon,1
+830,User2086,Mobile,Side,,Night,0
+831,User4742,Desktop,,,Night,1
+832,User1136,Mobile,,,Morning,1
+833,User8392,Mobile,Side,,Evening,0
+834,User5647,Tablet,Side,,Morning,1
+835,User1975,Mobile,Top,Social Media,Morning,1
+836,User1370,Desktop,Bottom,,Night,1
+837,User6094,,Top,Social Media,Evening,1
+838,User4029,Desktop,Side,,Afternoon,1
+839,User403,Tablet,Top,Shopping,Afternoon,0
+840,User2876,Tablet,Top,Education,Morning,1
+841,User6479,Tablet,Side,,Afternoon,1
+842,User5894,Desktop,Side,Social Media,Evening,0
+843,User9617,Tablet,,Shopping,,1
+844,User1650,Desktop,Bottom,,,1
+845,User2946,,,,,1
+846,User3336,,Bottom,,Morning,1
+847,User5531,,,News,,1
+848,User739,Mobile,Side,Social Media,Morning,0
+849,User7647,Desktop,Top,News,Afternoon,1
+850,User2062,Desktop,Top,Social Media,Morning,0
+851,User6966,Tablet,Side,,Evening,0
+852,User3183,Tablet,,News,Morning,0
+853,User2529,Desktop,,,Afternoon,1
+854,User5191,,Bottom,,Evening,0
+855,User5323,Tablet,Bottom,Shopping,Afternoon,0
+856,User5826,Desktop,,,Morning,0
+857,User6153,Mobile,Side,Entertainment,Night,1
+858,User9260,Desktop,Top,Education,Afternoon,0
+859,User389,Tablet,Top,,Afternoon,1
+860,User9642,Mobile,Bottom,,Evening,1
+861,User1632,Mobile,Side,Shopping,,0
+862,User5531,,Top,,Night,1
+863,User7507,,Top,Education,Afternoon,1
+864,User3154,Mobile,Top,Shopping,Evening,0
+865,User1945,Tablet,Side,Entertainment,Night,1
+866,User3675,Tablet,,,Afternoon,0
+867,User5198,Desktop,Bottom,Education,,1
+868,User429,Desktop,Bottom,Education,Morning,0
+869,User9660,Desktop,Top,,Night,1
+870,User7313,Mobile,,,,1
+871,User9845,Mobile,Top,,Evening,0
+872,User911,,Top,,Night,1
+873,User7013,Tablet,Top,Education,Afternoon,0
+874,User8684,Tablet,Top,Shopping,Afternoon,1
+875,User1386,,Top,News,Night,0
+876,User3335,Mobile,Top,Entertainment,Night,1
+877,User9397,Tablet,Top,Entertainment,Evening,1
+878,User9136,Desktop,Side,,Afternoon,1
+879,User4548,Desktop,Side,,Evening,1
+880,User1278,Tablet,,Education,Evening,0
+881,User6657,,Bottom,,Night,1
+882,User7376,Mobile,Side,News,Morning,1
+883,User2676,Tablet,Side,,Morning,0
+884,User5569,Mobile,Bottom,,Afternoon,1
+885,User1710,Tablet,Side,,,1
+886,User5198,Desktop,Bottom,,Night,1
+887,User6256,Tablet,Top,,Evening,0
+888,User9640,Desktop,Side,,Morning,0
+889,User7321,Tablet,Side,,Evening,0
+890,User6131,Tablet,Top,Entertainment,,0
+891,User2125,Tablet,Top,,Evening,1
+892,User5346,Tablet,Top,News,Morning,1
+893,User4707,Desktop,Top,,Evening,1
+894,User2142,Desktop,,Shopping,,1
+895,User382,Desktop,,Entertainment,,0
+896,User234,Tablet,Bottom,Social Media,Morning,1
+897,User9397,Tablet,Top,,,1
+898,User6452,,,,Night,0
+899,User5100,Mobile,Side,Shopping,,1
+900,User1141,,Bottom,,Afternoon,1
+901,User5832,Desktop,Side,,Afternoon,1
+902,User8241,Tablet,Side,,,0
+903,User3164,Desktop,Bottom,,Evening,1
+904,User7905,Tablet,,,Night,0
+905,User6296,Desktop,Bottom,Education,Evening,1
+906,User7962,Tablet,Top,,,1
+907,User8411,Tablet,Bottom,,Evening,0
+908,User8253,Desktop,Bottom,Entertainment,Night,1
+909,User277,Desktop,Top,,Afternoon,1
+910,User9419,Mobile,,Social Media,Afternoon,1
+911,User9057,Desktop,Side,,Afternoon,1
+912,User8426,Mobile,Side,,Night,0
+913,User6438,Tablet,Top,Shopping,,1
+914,User7229,Mobile,Top,Social Media,Night,1
+915,User1377,Tablet,Bottom,,Afternoon,0
+916,User1041,,Side,Entertainment,Morning,1
+917,User9333,Tablet,Top,Education,,0
+918,User7962,Tablet,Top,,Afternoon,1
+919,User5425,Mobile,,Entertainment,Afternoon,1
+920,User2337,Desktop,Top,Entertainment,Evening,1
+921,User1446,Desktop,Bottom,News,Night,1
+922,User5860,Desktop,Bottom,Entertainment,Morning,1
+923,User2805,Tablet,Bottom,News,Afternoon,0
+924,User111,Mobile,Top,Education,Morning,0
+925,User7815,Desktop,Bottom,News,Evening,0
+926,User9599,,Side,Entertainment,Evening,0
+927,User6980,,,,Night,1
+928,User5055,Desktop,Top,,Morning,1
+929,User7750,Mobile,Side,,Morning,1
+930,User7196,Tablet,Side,,Night,0
+931,User7450,Desktop,Side,News,Night,1
+932,User7971,Tablet,,,,1
+933,User444,Desktop,,,Evening,0
+934,User8345,Desktop,Top,,Afternoon,0
+935,User2431,Desktop,Top,,Night,1
+936,User4215,Desktop,Top,,Morning,0
+937,User6462,Tablet,Side,Education,Evening,1
+938,User928,,Side,Social Media,Night,1
+939,User3336,Desktop,Bottom,,,1
+940,User1171,Mobile,Bottom,,Night,1
+941,User1216,Mobile,,,Afternoon,0
+942,User966,Desktop,Bottom,,Night,1
+943,User5329,Tablet,Side,Education,Evening,1
+944,User5574,Desktop,,,Afternoon,1
+945,User6075,Desktop,Side,,Night,1
+946,User8096,Tablet,Side,Entertainment,Afternoon,0
+947,User5029,Mobile,Top,News,Night,0
+948,User188,,Bottom,News,,1
+949,User3291,Mobile,Bottom,,Night,0
+950,User3042,Mobile,Side,Social Media,,1
+951,User8459,Tablet,Bottom,Entertainment,Morning,1
+952,User7248,Mobile,Top,Social Media,Evening,1
+953,User670,Desktop,,Shopping,Afternoon,1
+954,User5832,Desktop,Side,,Afternoon,1
+955,User8226,Tablet,Top,,Morning,1
+956,User2934,Desktop,Top,Entertainment,Afternoon,1
+957,User8716,Mobile,Bottom,,Evening,0
+958,User8459,Tablet,Bottom,Entertainment,,1
+959,User1171,Mobile,Bottom,,Night,1
+960,User9420,Tablet,Side,Education,,1
+961,User5305,Tablet,,Shopping,Afternoon,0
+962,User3833,Desktop,,Entertainment,Night,0
+963,User1524,Mobile,Bottom,,Night,1
+964,User6074,Mobile,,,Afternoon,1
+965,User2174,Desktop,,Entertainment,Afternoon,1
+966,User1635,Tablet,,News,,1
+967,User5589,Tablet,Side,,Evening,0
+968,User1539,Mobile,Bottom,Education,Evening,1
+969,User6602,Desktop,Side,,Night,1
+970,User2311,,Bottom,,Afternoon,1
+971,User4278,Tablet,Side,Education,Night,0
+972,User4108,Tablet,Top,,Morning,1
+973,User9763,Desktop,Bottom,Entertainment,Evening,0
+974,User109,Tablet,Bottom,Social Media,Morning,0
+975,User1978,Tablet,Side,News,Evening,0
+976,User5605,Mobile,Side,Social Media,Evening,0
+977,User6453,Desktop,Bottom,Entertainment,Evening,0
+978,User8883,Mobile,Bottom,Education,Evening,1
+979,User4457,Desktop,Top,News,Night,0
+980,User6143,Mobile,Bottom,,Afternoon,1
+981,User2973,Tablet,Bottom,,,1
+982,User8018,,Side,,,1
+983,User1296,Tablet,Top,,Morning,1
+984,User8766,,,,Evening,0
+985,User7241,Tablet,Side,News,Afternoon,0
+986,User5197,Mobile,Top,Entertainment,,0
+987,User2602,,,Shopping,Afternoon,1
+988,User7268,Desktop,,,Evening,1
+989,User998,Tablet,Top,,Evening,1
+990,User1910,Desktop,Side,Social Media,Night,1
+991,User8018,Desktop,Side,,Night,1
+992,User3070,Desktop,Top,,Afternoon,0
+993,User6167,Mobile,Side,Shopping,Night,1
+994,User2928,Desktop,Side,News,Evening,0
+995,User4270,Tablet,,Education,,0
+996,User6143,Mobile,Bottom,,,1
+997,User5498,Tablet,Side,Education,Morning,1
+998,User8973,Tablet,Side,,Night,0
+999,User1214,Mobile,Bottom,News,Evening,1
+1000,User911,Desktop,Top,Entertainment,Night,1

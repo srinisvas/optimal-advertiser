@@ -1,6 +1,9 @@
+import time
+
+
 def match_ads(users, ads, matrix):
     from functools import lru_cache
-
+    start = time.time()
     n = len(users)
     m = len(ads)
 
@@ -16,5 +19,7 @@ def match_ads(users, ads, matrix):
         return best
 
     dp(0, 0)
+    end = time.time()
+    print(f"{"Dynamic Programming"} | Time: {end - start:6.4f} sec")
 
     return [(users[i]["user_id"], "AD_UNKNOWN", 0) for i in range(n)]
