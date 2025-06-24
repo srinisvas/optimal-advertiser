@@ -13,14 +13,14 @@ ad_profiles = data_prep.build_ad_profiles(data)
 print(data)
 print(user_profiles)
 print(ad_profiles)
+print(user_profiles[0])
+print(ad_profiles[0])
+print(compute_match_score(user_profiles[0],ad_profiles[0]))
 """
 
-#match_matrix = match_score.compute_match_matrix(user_profiles, ad_profiles)
+match_matrix = match_score.compute_match_matrix(user_profiles, ad_profiles)
 
-print(user_profiles[1])
-print(ad_profiles[1])
-print(compute_match_score(user_profiles[1],ad_profiles[1]))
-#print(match_matrix)
+print(match_matrix)
 
 """
 results = {

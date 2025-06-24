@@ -3,7 +3,7 @@ def compute_match_score(user, ad):
 
     if ad.get("topic", "").lower() in [i.lower() for i in user.get("interested_topics", [])]:
         score += 25
-    if not ad.get("target_audience", "").lower() in [i.lower() for i in user.get("target_group", [])]:
+    if ad.get("target_audience", "").lower() in [i.lower() for i in user.get("target_group", [])]:
         score += 15
     if user.get("age_group") == ad.get("target_age_group"):
         score += 10
@@ -18,7 +18,7 @@ def compute_match_score(user, ad):
     if ad.get("engagement_level"):
         score += 5
 
-    score += round((float(ad.get("click_through_rate")) + float(ad.get("conversion_rate")) + float(ad.get("roi"))) / 3 * 10, 2)
+    score += round((float(ad.get("click_through_rate", 0)) + float(ad.get("conversion_rate", 0)) + float(ad.get("roi", 0))) / 3 * 10, 2)
 
     return score
 
