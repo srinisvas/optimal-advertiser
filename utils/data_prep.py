@@ -1,7 +1,8 @@
 import os
-from datetime import datetime
-
 import pandas as pd
+from utils.datautils.interests_grouping import lookup_target, lookup_topic
+from utils.datautils.populate_age_group import populate_age_group
+
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -53,7 +54,7 @@ def build_ad_profiles(analytics_data):
         user_interactions = 0
 
         ad_profile = {
-            "id": row["ad_id"],
+            "ad_id": row["ad_id"],
             "topic": row["ad_topic"],
             "target_age_group": row["age_group"],
             "target_gender": row["target_gender"],
@@ -83,60 +84,3 @@ def build_ad_profiles(analytics_data):
         ad_profiles.append(ad_profile)
 
     return ad_profiles
-
-def populate_age_group(dob_str):
-    birth_year = int(str(dob_str).split("/")[2])
-    birth_month = int(str(dob_str).split("/")[0])
-    birth_day = int(str(dob_str).split("/")[1])
-    today = datetime.today()
-    age = today.year - birth_year - ((today.month, today.day) < (birth_month, birth_day))
-
-    if age < 25:
-        return "18-24"
-    elif age < 35:
-        return "25-34"
-    elif age < 55:
-        return "35-54"
-    else:
-        return "55+"
-
-interests_target_grouping = {
-
-"young adults" : {"gaming", "music", "business and entrepreneurship", "finance and investments", "fashion", "beauty"},
-"family oriented" : {"gardening", "social causes and activism", "art", "history", "movies", "cooking", "pets", "parenting and family", "politics", "art", "diy and crafts"},
-"travel lovers" : {"photography", "travel", "food and dining"},
-"fitness lovers" : {"outdoor activities", "health and wellness", "nature", "sports", "fitness"},
-"tech enthusiasts" : {"education and learning", "technology", "books", "science", "cars and automobiles"}
-
-}
-
-lookup_target = {
-    interest.lower(): group
-    for group, interests in interests_target_grouping.items()
-    for interest in interests
-}
-
-interests_topic_grouping = {
-
-"travel" : {"photography", "travel", "food and dining", "books"},
-"fashion" : {"fashion", "beauty", "art"},
-"electronics" : {"gaming", "music", "movies"},
-"health" : {"outdoor activities", "health and wellness", "nature", "sports", "fitness"},
-"automotive" : {"technology", "science", "cars and automobiles"}
-
-}
-
-lookup_topic = {
-    interest.lower(): group
-    for group, interests in interests_topic_grouping.items()
-    for interest in interests
-}
-
-"""
-data = load_all_datasets()
-userProfiles = build_user_profiles(data)
-adProfiles = build_ad_profiles(data)
-
-print(userProfiles)
-print(adProfiles)
-"""

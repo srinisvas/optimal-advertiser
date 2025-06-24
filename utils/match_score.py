@@ -23,8 +23,8 @@ def compute_match_score(user, ad):
     return score
 
 def compute_match_matrix(users, ads):
-    matrix = []
+    match_matrix = []
     for user in users:
         row = [compute_match_score(user, ad) for ad in ads]
-        matrix.append(row)
-    return matrix
+        match_matrix.append(row)
+    return match_matrix
