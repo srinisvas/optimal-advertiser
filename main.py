@@ -2,6 +2,7 @@ import time
 
 from algorithms import brute_force, greedy, dynamic_programming, backtracking
 from utils import data_prep, match_score, evaluator
+from utils.match_score import compute_match_score
 
 data = data_prep.load_all_datasets()
 
@@ -14,8 +15,14 @@ print(user_profiles)
 print(ad_profiles)
 """
 
-match_matrix = match_score.compute_match_matrix(user_profiles, ad_profiles)
+#match_matrix = match_score.compute_match_matrix(user_profiles, ad_profiles)
 
+print(user_profiles[1])
+print(ad_profiles[1])
+print(compute_match_score(user_profiles[1],ad_profiles[1]))
+#print(match_matrix)
+
+"""
 results = {
     "Brute Force": brute_force.match_ads(user_profiles, ad_profiles, match_matrix),
     "Greedy": greedy.match_ads(user_profiles, ad_profiles, match_matrix),
@@ -24,3 +31,4 @@ results = {
 }
 
 evaluator.evaluate_all(results)
+"""

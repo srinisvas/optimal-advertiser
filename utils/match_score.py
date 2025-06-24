@@ -1,13 +1,25 @@
 def compute_match_score(user, ad):
     score = 0
+
+    if ad.get("topic", "").lower() in [i.lower() for i in user.get("interested_topics", [])]:
+        score += 25
+    if not ad.get("target_audience", "").lower() in [i.lower() for i in user.get("target_group", [])]:
+        score += 15
     if user.get("age_group") == ad.get("target_age_group"):
-        score += 2
+        score += 10
     if user.get("gender") == ad.get("gender"):
-        score += 1
-    if ad.get("topic", "").lower() in [i.lower() for i in user.get("interests", [])]:
-        score += 3
-    score += float(ad.get("click_through_rate", 0)) * 5
-    score += float(ad.get("conversion_rate", 0)) * 5
+        score += 10
+    if user.get("ad_click_flag"):
+        score += 10
+    if str(user.get("browsing_history","")).lower == "shopping":
+        score += 10
+    if ad.get("in_trend_topic"):
+        score += 5
+    if ad.get("engagement_level"):
+        score += 5
+
+    score += round((float(ad.get("click_through_rate")) + float(ad.get("conversion_rate")) + float(ad.get("roi"))) / 3 * 10, 2)
+
     return score
 
 def compute_match_matrix(users, ads):
