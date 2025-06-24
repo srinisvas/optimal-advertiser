@@ -9,6 +9,8 @@ ad_profiles = data_prep.build_ad_profiles(data)
 
 match_matrix = match_score.compute_match_matrix(user_profiles, ad_profiles)
 
+print("\n=========================== Execution Summary ===========================\n")
+
 results = {
     "Brute Force": brute_force.match_ads(user_profiles, ad_profiles, match_matrix),
     "Greedy": greedy.match_ads(user_profiles, ad_profiles, match_matrix),
