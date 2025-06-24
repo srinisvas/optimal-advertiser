@@ -21,11 +21,4 @@ results = {
 
 evaluator.evaluate_all(results)
 
-"""
-print(data)
-print(user_profiles)
-print(ad_profiles)
-print(user_profiles[0])
-print(ad_profiles[0])
-print(compute_match_score(user_profiles[0],ad_profiles[0]))
-"""
+
