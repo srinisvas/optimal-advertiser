@@ -1,4 +1,4 @@
-from algorithms import brute_force, greedy, dynamic_programming, backtracking, iterative_improvement
+from algorithms import brute_force, greedy, dynamic_programming, hungarian, iterative_improvement
 from utils import data_prep, match_score, evaluator
 
 
@@ -15,7 +15,6 @@ results = {
     "Brute Force": brute_force.match_ads(user_profiles, ad_profiles, match_matrix),
     "Greedy": greedy.match_ads(user_profiles, ad_profiles, match_matrix),
     #"Dynamic Programming": dynamic_programming.match_ads(user_profiles, ad_profiles, match_matrix),
-    #"Backtracking": backtracking.match_ads(user_profiles, ad_profiles, match_matrix),
     "Iterative Improvement": iterative_improvement.match_ads(user_profiles, ad_profiles, match_matrix)
 }
 

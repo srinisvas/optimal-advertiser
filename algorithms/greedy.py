@@ -1,23 +1,29 @@
 import time
 
+from numpy.ma.extras import average
 
 def match_ads(users, ads, matrix):
     start = time.time()
+    result_set = []
     results = []
     matched_ads = set()
 
     for user_index, scores in enumerate(matrix):
-        unmatched_scores = []
+        best_ad_idx = -1
+        max_score = -1
+
         for ad_index, score in enumerate(scores):
-            if ad_index not in matched_ads:
-                unmatched_scores.append((ad_index, score))
-        ranked = sorted(unmatched_scores, key=lambda x: x[1], reverse=True)
+            if ad_index not in matched_ads and score > max_score:
+                max_score = score
+                best_ad_idx = ad_index
 
-        if ranked:
-            best_ad_idx, score = ranked[0]
+        if best_ad_idx != -1:
             matched_ads.add(best_ad_idx)
-            results.append((users[user_index]["user_id"], ads[best_ad_idx]["ad_id"], score))
-    end = time.time()
+            results.append((users[user_index]["user_id"], ads[best_ad_idx]["ad_id"], max_score))
 
-    print(f"{"Approach: Greedy"} | Execution time: {end - start:6.4f} sec")
-    return results
+    end = time.time()
+    print(f"Approach: Greedy | Execution time: {end - start:.4f} sec")
+    result_set.append({"execution_time" : end - start, "average_score" : average([r[2] for r in results]),
+                       "ad_coverage" : (len(set([r[1] for r in results]))/200) * 100, "user_count" : len([r[0] for r in results]),
+                       "ad_count" : len(set([r[1] for r in results])) })
+    return result_set
