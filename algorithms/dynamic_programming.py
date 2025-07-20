@@ -55,6 +55,6 @@ def match_ads(users, ads, scores, max_per_ad=10, beam_width=100):
     result_set.append({"execution_time" : end - start, "average_score" : average([r[2] for r in result]),
                        "ad_coverage" : (len(set([r[1] for r in result]))/200) * 100, "user_count" : len([r[0] for r in result]),
                        "ad_count" : len(set([r[1] for r in result])) })
-    print(f"{'Approach: Dynamic Programming'} | Execution time: {end - start:6.4f} sec")
+    print(f"{'Approach: Dynamic Programming with Beam-width -'} {beam_width} | Execution time: {end - start:6.4f} sec")
 
     return result_set

@@ -1,4 +1,4 @@
-from algorithms import brute_force, greedy, dynamic_programming, hungarian, iterative_improvement
+from algorithms import brute_force, greedy, dynamic_programming, iterative_improvement
 from utils import data_prep, match_score, evaluator
 
 
@@ -14,10 +14,12 @@ print("\n=========================== Execution Summary =========================
 results = {
     "Brute Force": brute_force.match_ads(user_profiles, ad_profiles, match_matrix),
     "Greedy": greedy.match_ads(user_profiles, ad_profiles, match_matrix),
-    #"Dynamic Programming": dynamic_programming.match_ads(user_profiles, ad_profiles, match_matrix),
+    #"DP with Beam-width(100)": dynamic_programming.match_ads(user_profiles, ad_profiles, match_matrix, 10, 100),
+    "DP with Beam-width(50)": dynamic_programming.match_ads(user_profiles, ad_profiles, match_matrix, 10, 50 ),
+    "DP with Beam-width(10)": dynamic_programming.match_ads(user_profiles, ad_profiles, match_matrix, 10, 10),
+    "DP with Beam-width(5)": dynamic_programming.match_ads(user_profiles, ad_profiles, match_matrix, 10, 5),
     "Iterative Improvement": iterative_improvement.match_ads(user_profiles, ad_profiles, match_matrix)
 }
 
 evaluator.evaluate_all(results)
-
-
+evaluator.plot_results(results)

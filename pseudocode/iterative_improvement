@@ -1,0 +1,94 @@
+Algorithm MatchAds(users, ads, scores, max_per_ad)
+
+Input:
+    users: list of user profiles
+    ads: list of ad profiles
+    scores: score_matrix [user][ad]
+    max_per_ad: maximum times an ad can be assigned
+
+Output:
+    list of (user_id, ad_id, score) assignments
+
+1. Initialize:
+    num_users ← number of users
+    num_ads ← number of ads
+    ad_usage ← map from ad_index to usage count (initially 0)
+    assignments ← list of -1 of size num_users
+
+2. Assign best available ad to each user:
+    For each user_index from 0 to num_users - 1:
+        sorted_ads ← list of ad indices sorted by score[user_index][j], descending
+        For ad_index in sorted_ads:
+            If ad_usage[ad_index] < max_per_ad:
+                assignments[user_index] ← ad_index
+                ad_usage[ad_index] += 1
+                Break
+
+3. Handle unused ads:
+    unused_ads ← list of ad indices where ad_usage[ad_id] == 0
+
+    For each unused_ad in unused_ads:
+        swap_candidate ← None
+        best_improvement ← -∞
+
+        For each user_id from 0 to num_users - 1:
+            current_ad ← assignments[user_id]
+            current_score ← scores[user_id][current_ad]
+            new_score ← scores[user_id][unused_ad]
+
+            If ad_usage[current_ad] > 1 AND new_score > current_score:
+                improvement ← new_score - current_score
+                If improvement > best_improvement:
+                    swap_candidate ← user_id
+                    best_improvement ← improvement
+
+        If swap_candidate is not None:
+            old_ad ← assignments[swap_candidate]
+            assignments[swap_candidate] ← unused_ad
+            ad_usage[old_ad] -= 1
+            ad_usage[unused_ad] += 1
+
+        Else:
+            For each user_id from 0 to num_users - 1:
+                old_ad ← assignments[user_id]
+                If ad_usage[old_ad] > 1:
+                    assignments[user_id] ← unused_ad
+                    ad_usage[old_ad] -= 1
+                    ad_usage[unused_ad] += 1
+                    Break
+
+4. Iterative improvement:
+    improved ← True
+
+    While improved:
+        improved ← False
+
+        For each user_id from 0 to num_users - 1:
+            current_ad ← assignments[user_id]
+            current_score ← scores[user_id][current_ad]
+
+            For alt_ad from 0 to num_ads - 1:
+                If alt_ad == current_ad OR ad_usage[alt_ad] >= max_per_ad:
+                    Continue
+
+                alt_score ← scores[user_id][alt_ad]
+
+                If alt_score > current_score:
+                    assignments[user_id] ← alt_ad
+                    ad_usage[alt_ad] += 1
+                    ad_usage[current_ad] -= 1
+                    improved ← True
+                    Break
+
+5. Build final result:
+    result ← empty list
+
+    For each user_index from 0 to num_users - 1:
+        ad_index ← assignments[user_index]
+        result.append((user_id, ad_id, scores[user_index][ad_index]))
+
+6. Return result
+
+O(U × A × log A) + O(A) + O(U × A) + O(U × A × I)
+
+Time complexity: O(U × A × log A), where: U = number of users, A = number of ads

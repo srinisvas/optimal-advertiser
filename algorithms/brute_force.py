@@ -2,7 +2,6 @@ import time
 
 from numpy.ma.extras import average
 
-
 def match_ads(users, ads, matrix):
     result_set = []
     results = []

@@ -1,0 +1,30 @@
+Algorithm MatchAdsBruteForce(users, ads, matrix)
+
+Input:
+    users: list of user profiles
+    ads: list of ad profiles
+    matrix: 2D list where matrix[i][j] = score for user i and ad j
+
+Output:
+    list of (user_id, ad_id, score) assignments
+
+1. Initialize:
+    results ← empty list
+
+2. For each user_index from 0 to number of users - 1:
+    highest_score ← -∞
+    best_ad_index ← -1
+
+    For each ad_index from 0 to number of ads - 1:
+        score ← matrix[user_index][ad_index]
+        If score > highest_score:
+            highest_score ← score
+            best_ad_index ← ad_index
+
+    user_id ← users[user_index].user_id
+    ad_id ← ads[best_ad_index].ad_id
+    Append (user_id, ad_id, highest_score) to results
+
+3. Return results
+
+Time Complexity : O(U × A), where: U = number of users, A = number of ads
