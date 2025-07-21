@@ -88,7 +88,3 @@ Output:
         result.append((user_id, ad_id, scores[user_index][ad_index]))
 
 6. Return result
-
-O(U × A × log A) + O(A) + O(U × A) + O(U × A × I)
-
-Time complexity: O(U × A × log A), where: U = number of users, A = number of ads

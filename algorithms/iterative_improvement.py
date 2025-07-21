@@ -3,7 +3,6 @@ from collections import defaultdict
 
 from numpy.ma.extras import average
 
-
 def match_ads(users, ads, scores, max_per_ad=10):
     start = time.time()
     result_set = []

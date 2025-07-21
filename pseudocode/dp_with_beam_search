@@ -1,0 +1,63 @@
+Algorithm MatchAds(users, ads, scores, max_per_ad)
+
+Input:
+    users: list of user profiles
+    ads: list of ad profiles
+    scores: score_matrix [user][ad]
+    max_per_ad: maximum times an ad can be assigned
+
+Output:
+    list of (user_id, ad_id, score) assignments
+
+1. Initialize:
+
+num_users ← number of users
+num_ads ← number of ads
+
+initial_caps ← tuple of (max_per_ad) repeated num_ads times
+initial_state ← (score_sum = 0, user_count = 0, ad_caps = initial_caps, assignments = [])
+
+beam ← [initial_state]
+memo ← empty map
+
+2. Beam Search Iteration for Each User:
+
+For user_id from 0 to num_users - 1:
+    next_beam ← empty list
+
+    For each (total_score, _, ad_caps, assignments) in beam:
+        For ad_id from 0 to num_ads - 1:
+            If ad_caps[ad_id] > 0:
+                new_caps ← copy of ad_caps
+                new_caps[ad_id] -= 1
+                new_caps_tuple ← tuple(new_caps)
+
+                new_assignments ← assignments + [ad_id]
+                new_score ← total_score + scores[user_id][ad_id]
+
+                key ← (user_id + 1, new_caps_tuple)
+                If key not in memo OR memo[key] < new_score:
+                    memo[key] ← new_score
+                    next_state ← (new_score, user_id + 1, new_caps_tuple, new_assignments)
+                    next_beam.append(next_state)
+
+    beam ← top beam_width elements from next_beam based on highest total_score
+
+3. Select Best Final Assignment
+
+(best_score, _, final_caps, best_assignment) ← state in beam with maximum total_score
+
+4. Build final result
+
+ad_usage ← map from ad_id to count
+
+For each ad_id in best_assignment:
+    ad_usage[ad_id] += 1
+
+result ← empty list
+
+For user_index from 0 to num_users - 1:
+    ad_index ← best_assignment[user_index]
+    result.append((users[user_index]["user_id"], ads[ad_index]["ad_id"], scores[user_index][ad_index]))
+
+5. Return result

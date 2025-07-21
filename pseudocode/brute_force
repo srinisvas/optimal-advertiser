@@ -26,5 +26,3 @@ Output:
     Append (user_id, ad_id, highest_score) to results
 
 3. Return results
-
-Time Complexity : O(U × A), where: U = number of users, A = number of ads
